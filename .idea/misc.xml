@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_space.xml" value="0.2715" />
+        <entry key="app/src/main/res/drawable/ic_add_image.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_chevron.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_copy.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_cross_circle.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_delivary_messages.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_dots.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_edit_pen.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_edit_pen_2.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_hand.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_note_add.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_save.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_trash_can.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_verify.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/message_bubble_background.xml" value="0.2705" />
+        <entry key="app/src/main/res/drawable/message_tongue_right.xml" value="0.2705" />
+        <entry key="app/src/main/res/drawable/message_tongue_right_gray.xml" value="0.2445" />
+        <entry key="app/src/main/res/drawable/rect_border_1dp.xml" value="0.241" />
+        <entry key="app/src/main/res/drawable/rect_round_border_1dp.xml" value="0.6096248779296876" />
+        <entry key="app/src/main/res/drawable/rect_round_border_1dp_black.xml" value="0.2705" />
+        <entry key="app/src/main/res/drawable/rect_round_border_1dp_gray.xml" value="0.23" />
+        <entry key="app/src/main/res/drawable/rect_round_message_.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/rect_round_message_recepient.xml" value="0.2445" />
+        <entry key="app/src/main/res/drawable/rect_round_message_sender.xml" value="0.2705" />
+        <entry key="app/src/main/res/drawable/rect_round_text_edit.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/rect_round_white_border_1dp_gray.xml" value="0.261" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.3687179487179487" />
+        <entry key="app/src/main/res/layout/fragment_edit_message.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/layout/item_date.xml" value="0.34010416666666665" />
+        <entry key="app/src/main/res/layout/item_message.xml" value="0.39103690685413006" />
+        <entry key="app/src/main/res/layout/item_offer.xml" value="0.34010416666666665" />
+        <entry key="app/src/main/res/layout/view_context_menu.xml" value="0.29842783610026036" />
+        <entry key="app/src/main/res/layout/view_context_menu_item.xml" value="0.4197138468424479" />
+        <entry key="app/src/main/res/layout/view_message.xml" value="0.5771372477213541" />
+        <entry key="app/src/main/res/layout/view_message_editor.xml" value="0.5266990291262136" />
+        <entry key="app/src/main/res/layout/view_offer_info.xml" value="0.34010416666666665" />
+        <entry key="app/src/main/res/layout/view_toolbar.xml" value="0.34010416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

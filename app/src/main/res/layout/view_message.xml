@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_gravity="end">
+
+        <ImageView
+            android:id="@+id/imageTongueEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-14dp"
+            android:layout_marginBottom="-4dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/textMessage"
+            app:layout_constraintStart_toEndOf="@id/textMessage"
+            app:srcCompat="@drawable/message_tongue_right_blue"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageTongueStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-14dp"
+            android:layout_marginBottom="-4dp"
+            android:rotationY="180"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/textMessage"
+            app:layout_constraintEnd_toStartOf="@id/textMessage"
+            app:srcCompat="@drawable/message_tongue_right_gray"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/ips_regular"
+            android:includeFontPadding="false"
+            android:paddingStart="14dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            android:textColor="#040C15"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@drawable/rect_round_message_sender"
+            tools:maxWidth="350dp"
+            tools:text="I can also wash terrace, windows and balcony for extra 20 euros if needed. " />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/ips_regular"
+            android:textColor="#66040C15"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@id/imageRead"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="12:32" />
+
+        <ImageView
+            android:id="@+id/imageRead"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/textMessage"
+            app:srcCompat="@drawable/ic_delivary_messages"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

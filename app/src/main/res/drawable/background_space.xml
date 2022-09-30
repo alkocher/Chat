@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="14dp"/>
+    <item android:drawable="@drawable/rect_round_message_sender"/>
+
+</layer-list>
